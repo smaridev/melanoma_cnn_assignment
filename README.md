@@ -34,6 +34,9 @@ The CNN built in Keras is able to achieve an overall accuracy of 92% and validat
 
 I plan to improve this accuracy further by automating image pre-processing and/or obtaining a larger dataset. I also plan to integrate this model into a website or app so that users may upload an image and see the associate risk of the mole.
 
+## Reference
+https://hal.archives-ouvertes.fr/hal-03172718/document
+
 ## Author
 
 **Shanmuga Mari** 
