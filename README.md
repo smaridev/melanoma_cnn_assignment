@@ -23,7 +23,7 @@ CNN architectures were explored for this project:
 
 ### Keras CNN
 
-The CNN built in Keras is able to achieve an overall accuracy of 78.8% on testing data not exposed to the CNN during training. This is actually good for such a simple CNN. This model takes about 10 minutes (30 epochs). While this CNN is simple and straightforward to understand, it does not yield the same level of accuracy as a deeper CNN. 
+The CNN built in Keras is able to achieve an overall accuracy of 92% and validation accuracy 82%.This is actually good for such a simple CNN. This model takes about 10 minutes (30 epochs). While this CNN is simple and straightforward to understand, it does not yield the same level of accuracy as a deeper CNN. 
 
 - Adam optizmier (default parameters) [1]
 - Fully-connected 
