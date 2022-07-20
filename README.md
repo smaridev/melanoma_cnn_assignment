@@ -16,22 +16,19 @@ Melanoma evolves from the rapid growth of melanin-producing cells, Melanocytes, 
 
 ## Models
 
-Two CNN architectures were explored for this project:
+CNN architectures were explored for this project:
 
 1) Simple CNN built from scratch with Keras, TensorFlow, and Python.
 
 
-## Results
-
 ### Keras CNN
 
-The CNN built in Keras is able to achieve an overall accuracy of 78.8% on testing data not exposed to the CNN during training. This is actually good for such a simple CNN. This model takes about 10 minutes (12 epochs). While this CNN is simple and straightforward to understand, it does not yield the same level of accuracy as a deeper CNN. Below shows the accuracy, sensitivity, and specificty on the testing data. This model has the following parameters:
+The CNN built in Keras is able to achieve an overall accuracy of 78.8% on testing data not exposed to the CNN during training. This is actually good for such a simple CNN. This model takes about 10 minutes (30 epochs). While this CNN is simple and straightforward to understand, it does not yield the same level of accuracy as a deeper CNN. 
 
 - Adam optizmier (default parameters) [1]
-- Fully-connected neurons = 512
+- Fully-connected 
 - 3 Conv2D layers
 - Epochs = 30
-
 
 ## Future Work
 
